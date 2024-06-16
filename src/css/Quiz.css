@@ -1,0 +1,63 @@
+/* Quiz.css */
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 992px) {
+    .quiz-container {
+        flex-direction: row;
+    }
+}
+
+.sidebar {
+    min-width: 250px;
+    height: 100vh;
+}
+
+.list-group-item-action {
+    cursor: pointer;
+}
+
+.list-group-item-action.active {
+    background-color: #495057;
+    color: white;
+}
+
+.list-group-item-action.text-light {
+    color: #adb5bd;
+}
+
+.list-group-item-action.text-light:hover {
+    color: white;
+    background-color: #343a40;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.test-item {
+    margin-bottom: 20px;
+}
+
+.test-name, .test-question {
+    margin-bottom: 10px;
+}
+
+.test-text {
+    margin-bottom: 15px;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.feedback {
+    margin-top: 10px;
+}

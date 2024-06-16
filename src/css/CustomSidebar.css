@@ -1,0 +1,42 @@
+/* CustomSidebar.css */
+.sidebar {
+    background-color: #343a40;
+    height: 100vh;
+    padding: 20px;
+    width: 250px;
+    position: fixed;
+}
+
+.menu-list {
+    margin-top: 60px;
+}
+
+.normal-item {
+    background-color: #343a40;
+    color: #f8f9fa;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.normal-item:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+.active-item {
+    background-color: cornflowerblue;
+    color: #ffffff;
+}
+
+.locked-item {
+    background-color: #343a40;
+    color: #6c757d;
+    text-decoration: line-through;
+    cursor: not-allowed;
+    border: none;
+}
+
+.locked-item:hover {
+    background-color: #343a40;
+    color: #6c757d;
+}
